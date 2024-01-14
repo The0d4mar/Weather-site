@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/scss/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+  
+    <div class="container">
+
+      <header class="head">
+        <form action="#" method="#" сlass = 'head__finder'>
+          <input type="text" placeholder="Find the city" name="search" class = 'head__input' id = 'input'>
+          <button type="submit" class = 'head__findBtn'>Search</button>
+          <div class = 'suggestions' ></div>
+        </form>
+
+        <nav class="navigation">
+          <a href="" class = 'head__nav-btn head__nav-btn_margin'>Saved Cities</a>
+          <a href="" class = 'head__nav-btn head__nav-btn_margin'>Today</a>
+          <a href="" class = 'head__nav-btn head__nav-btn_margin'>Week</a>
+          <a href="" class = 'head__nav-btn'>More</a>
+        </nav>
+      </header>
+    </div>
+    
+      <main class="main">
+        <div class="container">
+        <section class="mainCity">
+          <div class="mainCity__info">
+            <div class="mainCity__name">
+
+            </div>
+            <div class="mainCity__temp">
+
+            </div>
+
+            <div class="mainCity__addBtn">
+              <button class = 'mainCity__addBtn-btn'>
+                <span>Add</span>
+                <span>This city was added</span>
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+
+    <section class="favorite">
+      <div class="container favorite__cont">
+        <div class="favorite__head">
+          Saved Cities
+        </div>
+        <div class="favorite__storage">
+          
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="container">
+    <footer class="footer">
+      <section class="aboutMe">
+        <div class="aboutMe__author">
+          <span>Author</span>: Vladimir Gornyy
+        </div>
+        <div class="aboutMe__links">
+          <a href="https://github.com/The0d4mar" class="link link_marginRight"><img src="/public/images/github-color-svgrepo-com.svg" alt="GitHub" class = 'ling__img'></a>
+          <a href="https://discordapp.com/users/494530521813090306/" class="link link_marginRight"><img src="/public/images/discord-svgrepo-com.svg" alt="Discord" class = 'ling__img'></a>
+          <a href="https://t.me/Who_are_We" class="link"><img src="/public/images/telegram-svgrepo-com.svg" alt="Telegram" class = 'ling__img'></a>
+        </div>
+      </section>
+        <nav class="navigation footer__navigation">
+          <a href="" class = 'head__nav-btn head__nav-btn_marginBot'>Saved Cities</a>
+          <a href="" class = 'head__nav-btn head__nav-btn_marginBot'>Today</a>
+          <a href="" class = 'head__nav-btn head__nav-btn_marginBot'>Week</a>
+          <a href="" class = 'head__nav-btn'>More</a>
+        </nav>
+
+       
+    </footer>
+  </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="/src/js/bootstrap.bundle.min.js" ></script>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>
