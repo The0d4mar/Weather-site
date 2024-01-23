@@ -1,0 +1,37 @@
+:root{
+    --font: 'Roboto', sans-serif;
+    --mainColor: #7109AA;
+    --mainColorFocus: #2f1140;
+
+}
+
+
+.head{
+    display: flex;
+    padding-top: 37px;
+    color: var(--mainColor)
+}
+.head__backBtn{
+    transform: scale(0.2);
+}
+.head__backBtn-img{
+    transform: scale(0.2);
+    margin-right: 40px;
+
+}
+.head__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    column-gap: 20px;
+
+}
+.head__cityName{
+    font-size: 50px;
+    font-weight: 500;
+
+}
+.head__date{
+    font-size: 30px;
+    font-weight: 400;
+}
